@@ -10,7 +10,7 @@ source:
   url: https://pypi.io/packages/source/b/bob.io.image/bob.io.image-{{ version }}.zip
 
 build:
-  number: 0
+  number: 1
   skip: true  # [not linux]
   script: python -B setup.py install --single-version-externally-managed --record record.txt
 
@@ -24,7 +24,7 @@ requirements:
   - bob.io.base
   - giflib
   - libpng 1.6*
-  - jpeg 9*
+  - jpeg 8*
   - libtiff 4.0.*
   - pkg-config
 
@@ -36,7 +36,7 @@ requirements:
   - bob.io.base
   - giflib
   - libpng 1.6*
-  - jpeg 9*
+  - jpeg 8*
   - libtiff 4.0.*
 
 test:
