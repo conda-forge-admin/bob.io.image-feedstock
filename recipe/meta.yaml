@@ -33,7 +33,7 @@ requirements:
     - libpng {{ libpng_version }}
     - jpeg {{ jpeg_version }}*
     - libtiff 4.0.*
-    - boost 1.61.*
+    - boost 1.62.*
     - cmake
     - pkg-config
 
@@ -48,7 +48,7 @@ requirements:
     - libpng {{ libpng_version }}
     - jpeg {{ jpeg_version }}*
     - libtiff 4.0.*
-    - boost 1.61.*
+    - boost 1.62.*
 
 test:
   commands:
